@@ -37,7 +37,7 @@ Shader "Unlit/WaveShader"
 			{
 				// Displace the original vertex in model space
 				//float4 displacement = float4(0.0f, 0.0f, 0.0f, 0.0f);
-				//float4 displacement = float4(0.0f, -5.0f, 0.0f, 0.0f); // Q2a
+				//float4 displacement = float4(0.0f, 5.0f, 0.0f, 0.0f); // Q2a
 				//float4 displacement = float4(0.0f, _Time.y, 0.0f, 0.0f); // Q2b
 				//float4 displacement = float4(0.0f, sin(_Time.y), 0.0f, 0.0f); // Q2c
 				//float4 displacement = float4(0.0f, sin(v.vertex.x), 0.0f, 0.0f); // Q3
